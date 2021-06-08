@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>UC3 TASK SHEET - Docs</title>
+
+    <style>
+      .loader_bg {
+        position: fixed;
+        background: rgb(230, 230, 230);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .loader {
+        border: 5px solid;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        color: cornflowerblue;
+        border-top-color: transparent;
+        animation: loader 1.2s linear infinite;
+      }
+
+      @keyframes loader {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .card {
+        border-radius: 20px;
+      }
+
+      header {
+        background: url(img/pankaj-patel-eygpU6KfOBk-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 700px;
+      }
+      @media screen and (max-width: 670px) {
+        header {
+          min-height: 600px;
+        }
+      } ;
+    </style>
+  </head>
+  <body>
+    <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
+
+    <!-- navbar -->
+    <header>
+      <nav class="nav-wrapper blue darken-1">
+        <div class="container">
+          <a href="index.html" class="brand-logo">Tolete.</a>
+          <a
+            href="#"
+            class="sidenav-trigger hide-on-large-only"
+            data-target="mobile-links"
+          >
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="docs.html">Docs</a></li>
+            <li>
+              <a
+                href="https://www.facebook.com"
+                class="btn-floating btn-small indigo lighten-2"
+              >
+                <i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.twitter.com"
+                class="btn-floating btn-small indigo lighten-2"
+              >
+                <i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com"
+                class="btn-floating btn-small indigo lighten-2"
+              >
+                <i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="docs.html">Docs</a></li>
+      </ul>
+<br><br><br><br><br>
+      <div class="container center-align">
+        <div class="container-content">
+          <div class="row">
+            <div class="col s12 m6 l8 offset-l2 offset-m3">
+              <div class="card blue lighten-4">
+                <div class="card-content white-text">
+                  <span><h4>Essentials</h4></span>
+                  <p>Introduction</p>
+                  <p>About Tolete</p>
+                  <p>Installation</p>
+                  <br />
+                  <span><h4>Deployment</h4></span>
+                  <p>Setting up a container</p>
+                  <p>Using the CLI</p>
+                  <p>Managing the resources</p>
+                  <p>Upgrade & Downgrade</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+   
+<div class="container">
+  <div class="container-content">
+        <div class="col s12 m8 l4">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span><h4>Introduction</h4></span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio illo facere perferendis laborum? Similique recusandae
+                incidunt eos dolorum aliquam ipsam unde perspiciatis laudantium
+                totam quam laborum velit, at maxime minus?
+              </p>
+
+              <div class="card green">
+                <i class="material-icons">info</i>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                  animi?</span
+                >
+              </div>
+              <span><h4>Lorem, ipsum dolor.</h4></span>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                totam magni eius vitae velit id, atque veritatis! At, vero
+                porro.
+              </p>
+              <br />
+              <div class="btn blue waves-effect wave-light">Install CLI</div>
+              <br /><br />
+              <p>Requirements</p>
+              <br />
+              <p>Windows10, Mac OSX,Linux</p>
+              <p>Node.js v12 or higher</p>
+              <br />
+              <p>Install</p>
+              <br />
+              <p>Mac (Homebrew)</p>
+              <div class="card black">
+                <p>$ brew install tolete-cli</p>
+              </div>
+              <br />
+              <p>NPM</p>
+              <div class="card black">
+                <p>$ npm install tolete-cli</p>
+              </div>
+              <br />
+              <p>YARN</p>
+              <div class="card black">
+                <p>$ yarn install tolete-cli</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    <!-- Footer -->
+    <footer class="page-footer blue">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <h5 class="white-text">Tolete.</h5>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="features.html"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="docs.html">Docs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright blue darken-4 center-align">
+        <div class="container">
+          <p>&copy; 2021 Tolete.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- CDNJS JQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      $(window).on("load", function () {
+        $(".loader_bg").fadeOut(1000);
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".parallax").parallax();
+        $(".carousel").carousel();
+      });
+    </script>
+  </body>
+</html>
